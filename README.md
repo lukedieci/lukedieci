@@ -6,18 +6,18 @@
   />
 </p>
 
-### Sobre mim
+### About me
 
 <p>
-  Desenvolvo do jeito que gosto, tiro a ideia do papel, faço funcionar e vou lapidando no caminho
+  I develop in a way that suits me: I take an idea from concept to reality, get it working, and refine it along the way
 </p>
 <ul>
-  <li>Sempre construindo e evoluindo novos projetos</li>
-  <li>Sempre aprendendo novas tecnologias e aplicando em projetos reais</li>
+  <li>Constantly building and developing new projects</li>
+  <li>Always learning new technologies and applying them to real-world projects</li>
   <!--<li>Como me encontrar: <a href="https://linktr.ee/lucasanael">Linktree</a></li>-->
 </ul>
 
-### Tecnologias & Ferramentas
+### Technologies & Tools
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
