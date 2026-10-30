@@ -5,7 +5,7 @@
      role="img"
      aria-labelledby="footer-title footer-description">
   <title id="footer-title">Lucas Anael</title>
-  <desc id="footer-description">Rodapé com ondas suaves em tons de cinza escuro.</desc>
+  <desc id="footer-description">Rodapé com ondas suaves em tons dourados e alaranjados.</desc>
 
   <style>
     @keyframes fadeIn {
@@ -20,8 +20,8 @@
 
   <defs>
     <linearGradient id="footer-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#171819" />
-      <stop offset="100%" stop-color="#343638" />
+      <stop offset="0%" stop-color="#EFA81E" />
+      <stop offset="100%" stop-color="#C86C0F" />
     </linearGradient>
   </defs>
 

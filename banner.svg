@@ -5,7 +5,7 @@
      role="img"
      aria-labelledby="banner-title banner-description">
   <title id="banner-title">Lucas Anael</title>
-  <desc id="banner-description">Banner escuro com degradê estático e a logo Lucas Anael centralizada.</desc>
+  <desc id="banner-description">Banner com degradê dourado inspirado na luz quente da foto e a logo Lucas Anael centralizada.</desc>
 
   <style>
     @keyframes fadeIn {
@@ -20,19 +20,20 @@
 
   <defs>
     <linearGradient id="background-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#171819" />
-      <stop offset="100%" stop-color="#343638" />
+      <stop offset="0%" stop-color="#FFF06F" />
+      <stop offset="55%" stop-color="#FFC344" />
+      <stop offset="100%" stop-color="#E78617" />
     </linearGradient>
   </defs>
 
   <g id="banner-content">
-    <!-- Fundo escuro para manter o banner legível mesmo quando o SVG é exibido isoladamente. -->
+    <!-- Degradê dourado inspirado na luz amarela e alaranjada da foto. -->
     <rect width="1200" height="180" fill="url(#background-gradient)" />
 
     <!-- Conteúdo vetorial de logo.svg, incorporado diretamente e escalado para ~160px de largura. -->
     <g id="banner-logo"
        transform="translate(520 60.7) scale(0.2374)"
-       fill="#F4F3EF">
+       fill="#512806">
       <path d="M 131 81 L 130 82 L 130 158 L 131 159 L 131 168 L 138 189 L 149 205 L 174 229 L 195 241 L 205 244 L 217 245 L 218 246 L 237 245 L 250 241 L 258 237 L 269 229 L 281 214 L 286 204 L 291 186 L 291 180 L 292 179 L 292 81 L 242 81 L 242 164 L 241 165 L 241 169 L 238 177 L 232 184 L 223 189 L 215 190 L 214 191 L 202 189 L 193 184 L 186 176 L 183 168 L 183 164 L 182 163 L 182 82 L 181 81 Z M 476 105 L 469 119 L 465 133 L 464 147 L 463 148 L 464 169 L 466 173 L 532 238 L 542 243 L 555 246 L 610 246 L 611 245 L 619 245 L 620 244 L 630 243 L 647 236 L 653 232 L 664 220 L 671 205 L 671 201 L 672 200 L 671 198 L 665 198 L 664 199 L 650 199 L 649 198 L 642 198 L 641 199 L 560 199 L 559 198 L 549 198 L 548 199 L 543 199 L 542 198 L 536 198 L 529 195 L 523 188 L 520 178 L 521 175 L 672 175 L 673 174 L 673 143 L 672 142 L 672 135 L 671 134 L 671 129 L 666 113 L 658 99 L 649 90 L 643 86 L 626 79 L 616 78 L 615 77 L 525 77 L 524 78 L 519 78 L 511 80 L 495 87 L 489 91 Z M 520 140 L 524 129 L 529 124 L 536 121 L 602 121 L 607 123 L 613 129 L 616 141 L 614 143 L 522 143 Z M 300 2 L 299 3 L 299 245 L 300 246 L 354 246 L 354 153 L 356 152 L 425 223 L 441 238 L 452 243 L 460 245 L 467 245 L 468 246 L 524 246 L 525 245 L 405 123 L 537 3 L 536 2 L 479 2 L 478 3 L 468 4 L 456 9 L 440 22 L 381 76 L 355 98 L 354 97 L 354 2 Z M 0 2 L 1 178 L 2 179 L 3 191 L 5 195 L 6 201 L 16 220 L 27 231 L 34 236 L 47 242 L 60 245 L 67 245 L 68 246 L 177 246 L 177 244 L 162 233 L 147 219 L 131 199 L 84 199 L 83 198 L 74 197 L 67 193 L 63 189 L 59 182 L 57 175 L 57 117 L 56 116 L 56 8 L 57 4 L 55 0 L 4 0 Z" />
       <animate attributeName="opacity"
                from="0"
